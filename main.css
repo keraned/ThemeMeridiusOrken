@@ -71,9 +71,3 @@ html.orken-mode {
     --skeleton-background: rgba(16, 16, 16, var(--alpha));
     --skeleton-highlight: rgba(22, 22, 22, var(--alpha));
 }
-
-html.classic-mode.acryl {
-    --song-playing: #10101075;
-    --backdrop: #0a0a0ad9 !important;
-    --settings-view: #1d1d1dd9 !important;
-}
