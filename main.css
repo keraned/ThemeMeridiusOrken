@@ -1,5 +1,5 @@
 html.orken-mode {
-    --primary: #353535;
+    --primary: #1c1c1c; /*212121*/
 
     --secondary: #FF6B01;
     --secondary-hover: #ff5000;
@@ -9,20 +9,19 @@ html.orken-mode {
 
     --backdrop: #0e0e0e;
 
-    --titlebar: var(--primary);
+    --titlebar: var(--primary); 
 
     --scroll: #ccc5bc;
     --scroll-width: 12px;
     --scroll-radius: 8px;
+    --logo: #ff6b01;
 
-    --logo: #ff9e01;
-
-    --left: #0e0e0e;
+    --left: #121212;
     --left-queue: #0e0e0e;
     --left-icons: #ff9e01;
 
     --navigation: #141414;
-    --navigation-text: #fe8304;
+    --navigation-text: #ffffff;
     --navigation-select: #e57105;
 
     --border: #202020;
@@ -33,41 +32,33 @@ html.orken-mode {
     --player-slider: #ffffff26;
     --player-slider-progress: #ffffff52;
 
-    --text: #fe8304;
-    --small-text: #eb7a09;
+    --text: #ffffff;
+    --small-text: #c9c9c9;
 
     --song-performer: #9a9a9a;
-    --song-title: #e2e5e9;
-    --song-subtitle: #999999;
+    --song-title: #FF6B01;
+    --song-subtitle: #7b3714;
     --song-playing: #101010;
-    --song-hover: #11111140;
+    --song-hover: #0f0f0f;
 
     --item: rgba(26, 26, 26, var(--alpha));
     --item-hover: rgba(47, 47, 47, var(--alpha));
     --item-disabled: #000;
 
-    --field: #1a1a1a;
-
-    --icons: #acacac;
-    --icons-hover: #bdbdbd;
+    --field: #1a1818;
+    --icons: #8a8a8a;
+    --icons-hover: #f29966;
     --icons-disabled: #303030;
-
     --no-cover: var(--text);
-    --no-cover-background: #060606;
-
-    --links: #929292;
-    --links-active: #ffffff;
-    --links-hover: #ffffff;
-
+    --no-cover-background: #291408;
+    --links: #85817f;
+    --links-active: #a84207;
+    --links-hover: #ed7824;
     --buttons-text: #ffffff;
-
     --tooltip: var(--secondary);
-    --tooltip-text: var(--text);
-
-    --settings-view: #1d1d1d;
-
-    --switch-unchecked: #545454;
-
-    --skeleton-background: rgba(16, 16, 16, var(--alpha));
-    --skeleton-highlight: rgba(22, 22, 22, var(--alpha));
+    --tooltip-text:#ededed;
+    --settings-view: #141312;
+    --switch-unchecked: #454545;
+    --skeleton-background: rgba(11, 11, 11, var(--alpha));
+    --skeleton-highlight: rgba(191, 103, 21, var(--alpha));
 }
